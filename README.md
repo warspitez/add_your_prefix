@@ -17,6 +17,7 @@ This Python script allows you to add a user-defined prefix to the filenames of a
 =====================================================================================================================================================================================
 
 Caution
+
 Make sure to have a backup of your files before running the script, especially if you are testing it on important data.
 
 The script skips renaming its own file to avoid unintended changes to the script.
@@ -24,6 +25,7 @@ The script skips renaming its own file to avoid unintended changes to the script
 =====================================================================================================================================================================================
 
 Note
+
 This script uses the os module to interact with the file system.
 
 For any issues or improvements, feel free to contribute or report them in the repository.
