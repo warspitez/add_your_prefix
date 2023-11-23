@@ -1,6 +1,31 @@
-# add_your_prefix
-The program assumes that the files to be renamed are in the same directory as the Python script. The program uses os.path.dirname(os.path.abspath(__file__)) to get the absolute path of the directory where the script is located. You can place this script in the folder you want to rename files in and run it from there.
+# File Renaming Script
 
-The program prompts the user to enter the prefix they want to add to the file names. The program also assumes that the files have one of the extensions specified in the extensions list. You can add or remove extensions as needed.
+## Overview
 
-The program renames the files based on the prefix entered by the user and a unique number, in the format prefix_count.extension. The count variable is used to ensure that each file has a unique name.
+This Python script allows you to add a user-defined prefix to the filenames of all files in the same directory as the script. It's particularly useful for quickly organizing or categorizing files.
+
+## Usage
+
+1. Save the script in the directory containing the files you want to rename.
+
+2. Run the script by executing it with Python:
+
+3. Enter the desired prefix when prompted.
+
+4. The script will rename all files in the directory, excluding the script file itself, by adding the specified prefix.
+
+=====================================================================================================================================================================================
+
+Caution
+Make sure to have a backup of your files before running the script, especially if you are testing it on important data.
+
+The script skips renaming its own file to avoid unintended changes to the script.
+
+=====================================================================================================================================================================================
+
+Note
+This script uses the os module to interact with the file system.
+
+For any issues or improvements, feel free to contribute or report them in the repository.
+
+Happy file organizing!
