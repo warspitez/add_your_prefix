@@ -30,4 +30,4 @@ This script uses the os module to interact with the file system.
 
 For any issues or improvements, feel free to contribute or report them in the repository.
 
-Happy file organizing!
+Happy file organising!
